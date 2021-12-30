@@ -14,10 +14,15 @@ Além da implementação do trabalho você precisa fornecer algumas informaçõe
 
 Para compilar e executar o programa manualmente basta digitar os seguintes comandos em seu terminal:
 
-```
-$ mkdir bin (caso não tenha uma pasta para os executáveis, você deve criá-la com esse comando)
-$ g++ -Wall -std=c++11 -g source/src/main.cpp source/src/parser.cpp source/src/bares_manager.cpp -I source/include -o bin/bares (compilar)
-$ ./bin/bares (executar)
+```bash
+# Caso não tenha uma pasta para os executáveis, você deve criá-la com esse comando
+$ mkdir bin
+
+# Compilar
+$ g++ -Wall -std=c++11 -g source/src/main.cpp source/src/parser.cpp source/src/bares_manager.cpp -I source/include -o bin/bares
+
+# Executar
+$ ./bin/bares
 $ Digite a expressão a ser calculada
 ```
 
@@ -25,10 +30,15 @@ $ Digite a expressão a ser calculada
 
 Para compilar e executar o programa com o Cmake você precisa ter instalado pelo menos a versão 3.5. Em seguida, abra seu terminal e execute os seguintes comandos:
 
-```
-$ cmake -S source -B build (pede ao cmake para criar o diretório de compilação)
-$ cmake --build build (compilar)
-$ ./build/bares (executar)
+```bash
+# Pede ao cmake para criar o diretório de compilação
+$ cmake -S source -B build
+
+# Compilar
+$ cmake --build build
+
+ # Executar
+$ ./build/bares
 $ Digite a expressão a ser calculada
 ```
 
