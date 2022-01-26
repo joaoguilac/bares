@@ -1,7 +1,7 @@
 ﻿# Identificação Pessoal
 
-- Aluno: João Guilherme Lopes Alves da Costa (joguicosta@hotmail.com)
-- Aluno: Thiago de Oliveira Cordeiro (thiagoty52@gmail.com)
+- Aluno: João Guilherme Lopes Alves da Costa (joguicosta@hotmail.com) <a href="https://github.com/joaoguilac">@joaoguilac</a>
+- Aluno: Thiago de Oliveira Cordeiro (thiagoty52@gmail.com) <a href="https://github.com/ThiagoOliveiraCordeiro">@ThiagoOliveiraCordeiro</a>
 - Turma: DIM0120 - LINGUAGEM DE PROGRAMAÇÃO I - T01 (2021.1)
 - Professor: Selan Rodrigues dos Santos
 
